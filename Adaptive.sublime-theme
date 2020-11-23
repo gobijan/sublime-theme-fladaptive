@@ -70,12 +70,13 @@
 	{
 		"class": "tab_control",
 		"settings": ["show_tab_close_buttons"],
-		"content_margin": [16, 8, 10, 4],
+		"content_margin": [16, 4, 10, 4],
 	},
 	{
 		"class": "tab_label",
 		// "font.face": "SF Mono",
 		"shadow_color": ["hsl", 0, 0, 0, 0],
+		"font.size": 12,
 	},
 	{
 		"class": "tab_label",

@@ -20,13 +20,6 @@
 		"fg": ["foreground", 0.5],
 	},
 
-	// hide folder disclosure button
-	// {
-	// 	"class": "disclosure_button_control",
-	// 	"parents": [{"class": "tree_row"}],
-	// 	"content_margin": 0,
-	// },
-
 	// folder icons
 	{
 		"class": "icon_folder",
@@ -56,7 +49,7 @@
   },
   {
     "class": "sidebar_label",
-    "font.face": "SF Mono",
+    // "font.face": "SF Mono",
   },
 
 	/* Tabs
@@ -81,7 +74,8 @@
 	},
 	{
 		"class": "tab_label",
-		"font.face": "SF Mono",
+		// "font.face": "SF Mono",
+		"shadow_color": ["hsl", 0, 0, 0, 0],
 	},
 	{
 		"class": "tab_label",
@@ -113,9 +107,9 @@
   {
 		"class": "label_control",
 		"parents": [{"class": "status_bar"}],
-		"color": [150, 150, 150],
 		"font.size": 12,
-		"font.face": "SF Mono",
+		// "font.face": "SF Mono",
+		"shadow_color": ["hsl", 0, 0, 0, 0],
   },
 
 ]
